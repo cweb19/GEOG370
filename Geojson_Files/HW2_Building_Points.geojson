@@ -1,1 +1,9 @@
-
+{
+"type": "FeatureCollection",
+"name": "HW2_Building_Points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Building": "Carolina Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.049930221048982, 35.911296458518891 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Building": "Phillips Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.052727413062215, 35.910848332695252 ] } }
+]
+}
