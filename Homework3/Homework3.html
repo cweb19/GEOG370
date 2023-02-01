@@ -8,51 +8,51 @@
 <body>
     <h1>In this project I used QGIS to display a world map in nine different projections.</h1>
     
-    <p>To display the projections so that distortions were clearly visible, I installed the Indicatrix mapper plugin through QGIS, and clicked the globe icon that appeared once the plugin was activated to display lines of latitutude and longitude between rows of circles across the map.</p>
+    <p>To display the projections so that distortions were clearly visible, I installed the Indicatrix mapper plugin through QGIS, and clicked the globe icon that appeared once the plugin was activated to display Tissot's indicatrix of deformation.</p>
     <p>Once the plugin was installed, I changed the map projection by clicking the bottom of the QGIS screen where the EPSG value was located, and searched for the projection I wished to display. I repeated this for each of the nine projections I used in this assignment: WGS84, Aitoff, Pseudo-Mercator, Winkel, Cylindrical Equal-Area, Equidistant Cylindrical, Azimuthal Equidistant, Peirce Quincuncial, and American Polyconic.</p>
     
     <h2>WGS84 Projection</h2>
-    <h4>The WGS84 projection is accurately scaled close to the equator, but the map becomes increasingly distorted close to the poles, with countries becoming flattened and wide. Mid-latitude countries appear accurately scaled.</h4>
+    <h4>The WGS84 projection is based on an ellipsoid model, and is accurately scaled close to the equator. The map becomes increasingly distorted close to the poles, with countries becoming flattened and wide. Mid-latitude countries appear accurately scaled. The WGS84 projection is the standard for navigation purposes, and is the coordinate system used in GPS.</h4>
     <a href="HW3_WGS84.png">
     <img src="HW3_WGS84.png" alt="WGS84" width='700px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The Aitoff projection is scaled such that proportions are correct along the equator and the prime meridian, but area and distance become increasingly distorted moving away from these lines. Latitude and longitude curves are equally spaced.</h4>
     <a href="HW3_Aitoff.png">
     <img src="HW3_Aitoff.png" alt="Aitoff" width='700px'>
     </a>
     <h2>Pseudo-Mercator Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The pseudo-Mercator projection is designed such that all lines of latitude are parallel to each other, and that all lines of longitude are parallel to each other. This projection assumes a spherical globe, instead of the ellipsoidal shape used in the standard Mercator projection, which leads to distortions in shape at the poles but makes distance calculations easier.</h4>
     <a href="HW3_PseudoMerc.png">
     <img src="HW3_PseudoMerc.png" alt="Pseudo-Merc" width="700px">
     </a>
     <h2>Winkel Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The Winkel projection is an altered azimuth projection, and was designed to minimze distortions in skew, area, and distances between points.  It's clear from Tissot's indicatrix on the map that this projection deals with much less distortion than many others. </h4>
     <a href="HW3_Winkel.png">
     <img src="HW3_Winkel.png" alt="Winkel" width="700px">
     </a>
     <h2>Cylindrical Equal-Area Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The cylindrical equal-area projection is designed such that areas on the map have the same relative size as their areas on a globe, avoiding the area distortions of projections such as WGS84 or the pseudo-Mercator, where a country near the poles like Greenland looks disproportionately larger than its actual size. In order to preserve the area, country shapes are distorted, particularly nearest to the poles. Equally spaced, parallel longitude lines create distortion in the east-west direction, so this projection is not very practical for navigational purposes. </h4>
     <a href="HW3_Cylindrical.png">
     <img src="HW3_Cylindrical.png" alt="Cylindrical Equal-Area" width="700px">
     </a>
     <h2>Equidistant Conic Projection</h2>
-    <h4>Some observations</h4>
+    <h4>In the equidistant conic projection, as the name implies, distances along the lines of longitude (aka meridians) are accurately proportional to their scale on the globe. This projection is often used to map small countries as well as countries that are large east to west, such as Russia or the United States.</h4>
     <a href="HW3_Conic.png">
     <img src="HW3_Conic.png" alt="Equidistant Conic" width="700px">
     </a>
     <h2>Azimuthal Equidistant Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The azimuthal equidistant projection is useful in that all points are depicted at proportional distances from the center of the map, which is the North Pole. Equidistant projections can be centered points other than the North Pole, and distances between points can be found using polar coordinates, which is useful in areas like radio communication or missile range estimates. Scale is extremely distorted at the edges of the map, so the center must be chosen carefully according to the location being used in a calculation. </h4>
     <a href="HW3_AzimuthalEquidistant.png">
     <img src="HW3_AzimuthalEquidistant.png" alt="Azimuthal Equidistant" width="700px">
     </a>
     <h2>Peirce Quincuncial Projection</h2>
-    <h4>Some observations</h4>
+    <h4>The Peirce quincuncial projects each eighth of the globe onto a right triangle to form a square, where the north pole lies at the center and the south pole is split at each of the four corners of the square. The advantages of this projection is that distortion in the center of the map is to a much smaller degree than projections such as the Mercator, and the image can be tesselated in any direction, which would present a complete image of the south pole while retaining the original distortions of the projection. This map is less useful for geographical or travel purposes, however, although it has been used to record air routes.</h4>
     <a href="HW3_Peirce_Quin.png">
     <img src="HW3_Peirce_Quin.png" alt="Cylindrical Equal-Area" width="700px">
     </a>
     <h2>American Polyconic Projection</h2>
-    <h4>Some observations</h4>
+    <h4>Instead of the conic projection which uses only one cone to project the globe, the American polyconic projection uses many, such that the latitudinal parallels are all circular arcs except for the equator, which remains straight. This projection is also often simply called the polyconic projection, and was used for many maps in the 19th century although it is less used today. Each circular arc of the polyconic projection has true scale, although it is highly vertically distorted at the ends of the arcs.</h4>
     <a href="HW3_Polyconic.png">
     <img src="HW3_Polyconic.png" alt="Cylindrical Equal-Area" width="700px">
     </a>
