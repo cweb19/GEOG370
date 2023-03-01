@@ -1,0 +1,14 @@
+State,ID,County,Year,Days with AQI,Good Days,Moderate Days,Max AQI,90th Percentile AQI,Median AQI,Days Ozone,Days PM2.5
+Massachusetts,25001,Barnstable,2022,177,171,6,74,44,38,177,0
+Massachusetts,25003,Berkshire,2022,181,156,25,80,54,40,128,53
+Massachusetts,25005,Bristol,2022,181,169,12,71,49,39,157,24
+Massachusetts,25007,Dukes,2022,172,167,5,61,45,39,172,0
+Massachusetts,25009,Essex,2022,181,172,9,87,47,38,153,27
+Massachusetts,25011,Franklin,2022,181,151,30,80,55,38,117,64
+Massachusetts,25013,Hampden,2022,181,156,25,97,55,39,135,41
+Massachusetts,25015,Hampshire,2022,181,163,18,77,50,40,152,29
+Massachusetts,25017,Middlesex,2022,181,165,16,68,49,38,132,33
+Massachusetts,25021,Norfolk,2022,181,165,16,74,50,41,164,13
+Massachusetts,25023,Plymouth,2022,181,163,18,66,50,40,110,71
+Massachusetts,25025,Suffolk,2022,182,154,28,84,55,36,68,81
+Massachusetts,25027,Worcester,2022,182,149,33,70,55,42,88,84
