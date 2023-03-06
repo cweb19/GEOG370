@@ -7,12 +7,9 @@
     </head>
     <body>
         <h2>Caroline Webber</h2>
-        <img src="Quartile_Map.png" width="500px">
+        <img src="PM2.5_MA.png" width="500px">
         <br>
-        <img src="Equal_Interval_Map.png" width="500px">
-        <br>
-        <img src="Natural_Breaks_Map.png" width="500px">
-        <h2>The data from the US census that I chose to use was looking at the length of commute for people in Massachusetts. The dataset was split up by county, and had a column for a range of commute times: "less than five minutes", "five to nine minutes", "ten to fourteen minutes", and so on. In Part 1 of Homework 6, I looked at the percentage of MA workers with a commute of less than five minutes; for this assignment, I chose to look at the ratio of those with a commute of five to nine minutes. I joined the vector of MA counties to the cleaned CSV dataset using the state FIPS code and the geographic ID for each county. The fraction of the total number of workers with a commute of five-to-nine minutes is displayed for each county.</h2>
+        <h2>For Homework 7, I decided to look at air quality data within the state of Massachusetts and create a proportional aspect with the size of airports in the state. I downloaded a shapefile of airport locations from the mass.gov website, which has files of all Massachusetts GIS data, and created a proprotional symbol based off of the number of runways at the airport. I would've preferred to size the points by how many flights take off per day, but wasn't able to find data for that. The largest airport by far in the state was Logan airport in Boston, but I was impressed to see how many smaller private and public airports were scattered across the state. For the chloropleth, I color-coded the counties based on how many days in 2022 they had high levels of PM2.5. I chose to look at air quality and airports because I'm interested in studying atmospheric science in the future, and because PM2.5 is a common result of anthropogenic emissions, which can become particularly dangerous in densely populated urban areas where cars and airplanes are common.</h2>
         <a href="https://github.com/cweb19/HW_Repo/blob/main/Homework6/MA_counties_4326.geojson">Link to MA counties GeoJSON in 4326 projection
         </a>
         <br>
