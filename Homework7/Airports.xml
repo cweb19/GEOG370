@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20190418</pubdate>
+                <title>Airports</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://gis.massdot.state.ma.us/arcgis/rest/services/Assets/Airports/MapServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Airports in the state of Massachusetts generated from tabular data provided by the MassDOT Aeronautics Division. This display summarizes the facilities and services found at each location.</abstract>
+            <purpose>point data of the location of all Airport facilities in Massachusetts</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20040101</begdate>
+                    <enddate>20190418</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>This data is valid for the spatial extent of the state of Massachusetts and for the temporal extent of up to April 18th 2019.</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-73.426099</westbc>
+                <eastbc>-69.962225</eastbc>
+                <northbc>42.862264</northbc>
+                <southbc>41.249702</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>economy</themekey>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Airport</themekey>
+                <themekey>MassDOT</themekey>
+                <themekey>Airports</themekey>
+                <themekey>Aeronautics</themekey>
+                <themekey>Planning</themekey>
+                <themekey>Planes</themekey>
+                <themekey>Tourism</themekey>
+                <themekey>Travel</themekey>
+                <themekey>Massachusetts</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This data is in the public domain and therefore can be used by anyone for any purpose. MassDOT shall not be held liable for any errors in this data. This includes errors of omission, commission, errors concerning the content of the data, and relative and positional accuracy of the data. This data cannot be construed to be a legal document. Primary sources from which this data was compiled must be consulted for verification of information contained in this data.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>MassDOT</cntorg>
+                    <cntper>GIS Services</cntper>
+                </cntorgp>
+                <cntpos>Planning</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>10 Park Plaza Suite 4150</address>
+                    <city>Boston</city>
+                    <state>MA</state>
+                    <postal>02116</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(857) 368-9800</cntvoice>
+                <cntemail>dot.gisservices@state.ma.us</cntemail>
+                <hours>Monday-Friday 9AM to 5PM</hours>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Massachusetts Department of Transportation Planning</cntorg>
+                    <cntper>Charles Major</cntper>
+                </cntorgp>
+                <cntpos>GIS QC Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>10 Park Plaza</address>
+                    <city>Boston</city>
+                    <state>MA</state>
+                    <postal>02116</postal>
+                </cntaddr>
+                <cntvoice>857-368-8880</cntvoice>
+                <cntemail>charles.major@dot.state.ma.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Massachusetts Department of Transportation (MassDOT)</datacred>
+        <native>Esri ArcGIS 12.4.2.19948</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>1571</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Airports</enttypl>
+                <enttypd>Airports</enttypd>
+                <enttypds>MassDOT</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ID</attrlabl>
+                <attrdef>A field that provides International Airport Transport Association Codes or Massachusetts identification codes.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>TOWN</attrlabl>
+                <attrdef>A field that provides the town where the airport is located.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AIRPORT_NAME</attrlabl>
+                <attrdef>A field that provides the name of the airport.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OWNER_TYPE</attrlabl>
+                <attrdef>A field that provides the type of  airport ownership.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+                <attrvai>
+                                        					
+                    
+                    <attrva>MAC, Private, Massport</attrva>
+                                        				
+                
+                </attrvai>
+            </attr>
+            <attr>
+                <attrlabl>FACILITY_TYPE</attrlabl>
+                <attrdef>A field that provides the type of  airport facility.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+                <attrvai>
+                                        					
+                    
+                    <attrva>Private Owned AP, Public Owned AP</attrva>
+                                        				
+                
+                </attrvai>
+            </attr>
+            <attr>
+                <attrlabl>CLASS</attrlabl>
+                <attrdef>Which class of Airport. Examples include basic utility (BU1/2), general utility (GU1/2) and transportation (TRAN). What type of aircraft does the airport serve.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RUNWAY</attrlabl>
+                <attrdef>A field that provides the number of runways.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>A field that provides the lattitude of the airport.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+                <attrdef>A field that provides the longitude of the airport.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ELEVATION</attrlabl>
+                <attrdef>A field that provides the elevation of the airport in feet.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>P_LENGTH</attrlabl>
+                <attrdef>A field that provides the length of the primary runway in feet.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>S_LENGTH</attrlabl>
+                <attrdef>A field that provides the length of the secondary runway in feet.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>P_WIDTH</attrlabl>
+                <attrdef>A field that provides the width of the primary runway in feet.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>S_WIDTH</attrlabl>
+                <attrdef>A field that provides the width of the secondary runway in feet.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>P_SURFACETYPE</attrlabl>
+                <attrdef>A field that provides the primary runway surface type.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>S_SURFACETYPE</attrlabl>
+                <attrdef>A field that provides the secondary runway surface type.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>P_RUNWAYLIGHTS</attrlabl>
+                <attrdef>A field that provides the primary runway lighting type.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>S_RUNWAYLIGHTS</attrlabl>
+                <attrdef>A field that provides the secondary runway lighting type.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CONTROLTOWER</attrlabl>
+                <attrdef>A field that provides the control tower type.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RESTAURANT</attrlabl>
+                <attrdef>A field that provides whether or not the airport has a dining facility.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RENTALCAR</attrlabl>
+                <attrdef>A field that provides whether or not the airport offers rental car service.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SERVICELEVEL</attrlabl>
+                <attrdef>A field that provides the airport service level.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AIRSERVICE</attrlabl>
+                <attrdef>A field that provides wheter or not the airport provides airline service.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+                <attrdef>unique dynamic identifier assigned to all records</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>created_user</attrlabl>
+                <attrdef>Editor Tracking field - user who created the record.</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>created_date</attrlabl>
+                <attrdef>editor tracking field. - date the record was created</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>last_edited_user</attrlabl>
+                <attrdef>Editor Tracking field - user who last edited the record</attrdef>
+                <attrdefs>MassDOT</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>last_edited_date</attrlabl>
+                <attrdef>editor tracking field. - date the record was last edited</attrdef>
+                <attrdefs>Massdot</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distliab>This layer was produced by the Office of Transportation Planning.
+The Federal Highway Administration provided funding for the production 
+of this layer through the State Planning and Research Program.
+
+The location of the boundaries and/or features shown in this layer is
+approximate and is intended for planning purposes only. This layer
+is not intended to be used for survey, engineering or legal purposes.
+For more information call: (857) 368-9800</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt/>
+                </digtopt>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20200701</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Massachusetts Department of Transportation Planning</cntorg>
+                    <cntper>Charles Major</cntper>
+                </cntorgp>
+                <cntpos>GIS QC Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>10 Park Plaza</address>
+                    <city>Boston</city>
+                    <state>MA</state>
+                    <postal>02116</postal>
+                </cntaddr>
+                <cntvoice>857-368-8880</cntvoice>
+                <cntemail>charles.major@dot.state.ma.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
