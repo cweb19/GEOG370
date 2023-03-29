@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homework 8</title>
+    </head>
+    <body>
+        <h2>Caroline Webber</h2>
+        <img src="NC_Grocery_Stores.jpg" width="600px">
+        <br>
+        <p>For Homework 8, I used data from the National Neighborhood Data Archive (NaNDA) to look at the number of grocery stores in each North Carolina Census Tract - shoutout Julia for helping me find the data!! I cleaned up the downloaded CSV, which was for the entire United States, by filtering for the NC census codes and for the North America Industry Classification System (NAICS) codes that indicated all supermarkets and grocery stores excluding convenience stores. Next, I joined the data to the NC census outlines in QGIS, and created a graduated color representation with pretty breaks. In order to complete the geoprocessing requirements for this assignment, I also downloaded a shapefile from NC OneMap that shows the urban areas in the state. Using buffer(), I created a one-mile buffer around the urban regions; then i selected all of the census tracts that had zero grocery stores, and used intersect() to display all of the urban census tracts with zero grocery stores. Finally, I used the Overlay Analysis tool and displayed a label of the percentage of overlap between urban tracts and zero-store tracts. The labels displayed on the map show the percentage of urban tracts with no grocery stores.  </p>
+        <ul>
+            <li> <a href="https://www.openicpsr.org/openicpsr/project/123001/version/V1/view">Original Grocery Store Dataset</a></li>
+            <li> <a href="https://github.com/cweb19/HW_Repo/blob/main/Homework8/nanda_grocery_tract_2003-2017_01P.csv">Cleaned Grocery Store Dataset</a></li>
+            <li> <a href="https://www.nconemap.gov/datasets/4b5f3f5c54b14339b81d8ff1a841dc2e_9/explore?location=35.100287%2C-79.888950%2C7.17">NC Census Tract Outlines</a></li>
+            <li> <a href="https://www.nconemap.gov/datasets/1e3c5c651090473088fedeb31b7818ee_12/explore?location=35.060716%2C-79.529800%2C7.31">NC Census Urban Areas</a></li>
+        </ul>
+        <br>
+    </body>
+</html>
