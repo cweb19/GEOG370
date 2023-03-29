@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20100101</pubdate>
+                <title>2010 US Census Tracts</title>
+                <edition>2010</edition>
+                <geoform>vector digital data</geoform>
+                <onlink>http://www.census.gov/geo/www/tiger</onlink>
+                <onlink>http://www.census.gov/geo/www/tiger</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses. Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people. When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions. The spatial size of census tracts varies widely depending on the density of settlement. Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions. In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline. Census tract boundaries generally follow visible and identifiable features. They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses. State and county boundaries always are census tract boundaries in the standard census geographic hierarchy. In a few rare instances, a census tract may consist of noncontiguous areas. These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous. For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area.</abstract>
+            <purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>201001</begdate>
+                    <enddate>201007</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>Publication Date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-84.422158</westbc>
+                <eastbc>-75.355688</eastbc>
+                <northbc>36.617273</northbc>
+                <southbc>33.641965</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Tract</themekey>
+                <themekey>Census Tract</themekey>
+                <themekey>State or equivalent entity</themekey>
+                <themekey>Polygon</themekey>
+            </theme>
+            <place>
+                <placekt>INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008</placekt>
+                <placekey>State or Equivalent Entity</placekey>
+                <placekey>U.S.</placekey>
+                <placekey>United States</placekey>
+                <placekey>NC</placekey>
+                <placekey>37</placekey>
+                <placekey>North Carolina</placekey>
+            </place>
+        </keywords>
+        <accconst>NoneAccess constraints: None</accconst>
+        <useconst>https://www.nconemap.gov/pages/terms</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>unknown</addrtype>
+                    <address>4600 Silver Hill Road, Stop 7400</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20233-7400</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>301-763-1128</cntvoice>
+                <cntfax>301-763-4710</cntfax>
+                <cntemail>geo.tiger@census.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <native>Esri ArcGIS 12.8.0.29751</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin/>
+                        <title>Census MAF/TIGER database</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc/>
+                <srccitea>Census MAF/TIGER database</srccitea>
+                <srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity. Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.</procdesc>
+                <procdate>20100101</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Projected data to NC Stateplane meters, NAD83.</procdesc>
+                <procdate>20110401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NC CGIA</cntorg>
+                        </cntorgp>
+                        <cntvoice>919-754-6580</cntvoice>
+                        <cntfax>919-715-8551</cntfax>
+                        <hours>8am to 5pm</hours>
+                        <cntinst>Phone and electronic mail preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>2195</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>ncom.sdeadmin.centr2010</enttypl>
+                <enttypd>2010 Census Census Tract State-based</enttypd>
+                <enttypds>U.S. Census Bureau</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>total_pop</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GEOID10</attrlabl>
+                <attrdef>
+Census tract identifier, a concatenation of 2010 Census state
+Federal Information Processing Standards (FIPS) code, county
+FIPS code, and census tract code
+</attrdef>
+                <attrdefs>U.S. Census Bureau</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>
+INCITS.38-200x (R2004), Codes for the Identification of
+the States, the District of Columbia, Puerto Rico, and the
+Insular Areas of the United States (Formerly FIPS 5-2),
+INCITS.31-200x (R2007), Codes for the Identification of
+the Counties and Equivalent Areas of the United States,
+Puerto Rico, and the Insular Areas of the United States
+(Formerly FIPS 6-4) and the census tract code that appears
+in TRACTCE10
+</codesetn>
+                                                
+                        
+                        <codesets>U.S. Census Bureau</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>st_area(shape)</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>st_perimeter(shape)</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20220523</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NC CGIA</cntorg>
+                </cntorgp>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <hours>8am to 5pm</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metac>NoneAccess constraints: None</metac>
+        <metuc>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</metuc>
+    </metainfo>
+</metadata>
