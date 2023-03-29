@@ -7,7 +7,7 @@
     </head>
     <body>
         <h2>Caroline Webber</h2>
-        <img src="NC_Grocery_Stores.jpg" width="600px">
+        <img src="NC_Grocery_Stores.jpg" width="700px">
         <br>
         <p>For Homework 8, I used data from the National Neighborhood Data Archive (NaNDA) to look at the number of grocery stores in each North Carolina Census Tract - shoutout Julia for helping me find the data!! I cleaned up the downloaded CSV, which was for the entire United States, by filtering for the NC census codes and for the North America Industry Classification System (NAICS) codes that indicated all supermarkets and grocery stores excluding convenience stores. Next, I joined the data to the NC census outlines in QGIS, and created a graduated color representation with pretty breaks. In order to complete the geoprocessing requirements for this assignment, I also downloaded a shapefile from NC OneMap that shows the urban areas in the state. Using buffer(), I created a one-mile buffer around the urban regions; then i selected all of the census tracts that had zero grocery stores, and used intersect() to display all of the urban census tracts with zero grocery stores. Finally, I used the Overlay Analysis tool and displayed a label of the percentage of overlap between urban tracts and zero-store tracts. The labels displayed on the map show the percentage of urban tracts with no grocery stores.  </p>
         <ul>
